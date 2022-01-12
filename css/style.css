@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* comon stayle section start*/
+li {
+  list-style: none;
+}
+.contaner {
+}
+/* comon stayle section End*/
+header {
+  background-color: #562eff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.logos {
+  display: flex;
+}
+.logo-icon img {
+  height: 51px;
+  width: 40.424137115478516px;
+}
+.logo-name {
+  color: white;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+}
+.menu-item ul li {
+  display: inline;
+  margin-left: 30px;
+  color: white;
+}
+.profile {
+  margin-left: 20px;
+}
