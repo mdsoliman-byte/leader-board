@@ -9,6 +9,8 @@ li {
 .contaner {
 }
 /* comon stayle section End*/
+
+/* Header Section Start  */
 header {
   background-color: #562eff;
   display: grid;
@@ -23,7 +25,6 @@ header {
 }
 .logo-name {
   color: white;
-  justify-content: center;
 }
 .menu {
   display: flex;
@@ -36,3 +37,8 @@ header {
 .profile {
   margin-left: 20px;
 }
+/* Header Section End  */
+/* Main Section Start */
+
+
+/* Main Section End */
