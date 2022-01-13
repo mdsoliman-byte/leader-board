@@ -1,25 +1,36 @@
+/* Using Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Poppins:ital,wght@0,400;0,500;1,200&family=Roboto:ital,wght@0,100;0,400;1,100;1,700&family=Scheherazade+New:wght@400;700&display=swap");
+/* comon stayle section start*/
+body {
+  background-color: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
 }
-/* comon stayle section start*/
 li {
   list-style: none;
 }
 .contaner {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px;
 }
 /* comon stayle section End*/
 
 /* Header Section Start  */
 header {
   background-color: #562eff;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
 }
 .logos {
   display: flex;
 }
 .logo-icon img {
+  flex: 1;
   height: 51px;
   width: 40.424137115478516px;
 }
@@ -39,6 +50,38 @@ header {
 }
 /* Header Section End  */
 /* Main Section Start */
-
-
+/* Top Player Section Start */
+main {
+  display: flex;
+  justify-content: center;
+}
+.top-palyers {
+}
+.section-title {
+  color: #562eff;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+.player-name {
+  margin-left: 16px;
+}
+.players img {
+  height: 56px;
+  width: 56px;
+}
+/* .hr-z {
+  border: 1px solid #d1d1d1;
+  margin-top: 30px;
+} */
+/* Top Player Section End */
 /* Main Section End */
